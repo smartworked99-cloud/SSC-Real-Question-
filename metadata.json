@@ -1,0 +1,6 @@
+{
+  "name": "SSC Real Question Portal",
+  "description": "SSC Real Question Portal - এসএসসি টেস্ট ও ফাইনাল পরীক্ষার নির্ভরযোগ্য প্রশ্নপত্র ও ১০০% কমন সলিউশন পোর্টাল।",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

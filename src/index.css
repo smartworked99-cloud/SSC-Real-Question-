@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+@layer base {
+  html {
+    font-size: 14.5px;
+  }
+
+  body {
+    font-family: 'Hind Siliguri', 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #030712;
+}
+::-webkit-scrollbar-thumb {
+  background: #1e293b;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #334155;
+}
+
+/* Glassmorphism & Luxury gradients */
+.luxury-gradient-text {
+  background: linear-gradient(135deg, #ffffff 0%, #cbd5e1 50%, #93c5fd 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.luxury-gold-text {
+  background: linear-gradient(135deg, #fef08a 0%, #facc15 40%, #eab308 70%, #ca8a04 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.glow-blue {
+  box-shadow: 0 0 35px -10px rgba(37, 99, 235, 0.3);
+}
+
+.glow-gold {
+  box-shadow: 0 0 30px -8px rgba(234, 179, 8, 0.25);
+}
